@@ -164,6 +164,7 @@ pytest-doctestplus==0.2.0
 pytest-openfiles==0.3.1
 pytest-remotedata==0.3.1
 python-dateutil==2.7.5
+python-dotenv==0.12.0
 pytz==2018.7
 PyWavelets==1.0.1
 pywin32==223
