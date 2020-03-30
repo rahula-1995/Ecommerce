@@ -32,3 +32,7 @@ class Orders(models.Model):
     state = models.CharField(max_length=111)
     zip_code = models.CharField(max_length=111)
     phone = models.CharField(max_length=111, default="")
+class Users(models.Model):
+    userid=models.AutoField(primary_key=True)
+    email=models.CharField(max_length=90)
+    password=models.CharField(max_length=90)

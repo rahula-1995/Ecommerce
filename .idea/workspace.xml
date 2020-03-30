@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0f76e1e-6eb0-4995-8d7a-0e5e37b8c4bc" name="Default Changelist" comment="" />
+    <list default="true" id="f0f76e1e-6eb0-4995-8d7a-0e5e37b8c4bc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/blog/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/blog/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/blog/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/blog/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/blog/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/blog/templates/blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/blog/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/blog/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/blog/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/cart/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/cart/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/cart/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/cart/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/cart/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/cart/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/runtime.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/shop/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/shop/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/shop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/shop/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/shop/templates/shop/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/shop/templates/shop/basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/shop/templates/shop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/shop/templates/shop/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/shop/templates/shop/tracker.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/shop/templates/shop/tracker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/shop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/shop/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cart/shop/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+            <state relative-caret-position="238">
+              <caret line="101" selection-start-line="101" selection-end-line="101" />
               <folding>
                 <element signature="e#26#62#0" expanded="true" />
               </folding>
@@ -25,19 +53,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cart/shop/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+            <state relative-caret-position="277">
+              <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cart/shop/admin.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cart/shop/templates/shop/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+            <state relative-caret-position="294">
+              <caret line="117" column="51" selection-start-line="117" selection-start-column="51" selection-end-line="117" selection-end-column="51" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#1507#1528#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cart/shop/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="204">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -55,14 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cart/shop/templates/shop/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cart/shop/templates/shop/checkout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
-              <folding>
-                <element signature="e#1507#1528#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1309">
+              <caret line="77" column="22" lean-forward="true" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -77,10 +102,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cart/shop/templates/shop/checkout.html">
+        <entry file="file://$PROJECT_DIR$/cart/shop/templates/shop/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-621">
-              <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+            <state relative-caret-position="901">
+              <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -88,8 +113,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cart/shop/templates/shop/basic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+            <state relative-caret-position="-998">
+              <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+              <folding>
+                <element signature="e#2357#2364#1" expanded="true" />
+                <element signature="e#3292#3299#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,19 +166,19 @@
         <option value="$PROJECT_DIR$/cart/shop/migrations/0001_initial.py" />
         <option value="$PROJECT_DIR$/cart/shop/migrations/0002_auto_20190614_1854.py" />
         <option value="$PROJECT_DIR$/cart/shop/migrations/0003_auto_20190614_1857.py" />
-        <option value="$PROJECT_DIR$/cart/cart/settings.py" />
-        <option value="$PROJECT_DIR$/cart/shop/templates/shop/basic.html" />
         <option value="$PROJECT_DIR$/cart/shop/templates/shop/search.html" />
-        <option value="$PROJECT_DIR$/cart/shop/templates/shop/tracker.html" />
-        <option value="$PROJECT_DIR$/cart/cart/urls.py" />
         <option value="$PROJECT_DIR$/cart/shop/templates/shop/about.html" />
         <option value="$PROJECT_DIR$/cart/shop/templates/shop/prodview.html" />
         <option value="$PROJECT_DIR$/cart/shop/templates/shop/contact.html" />
+        <option value="$PROJECT_DIR$/cart/cart/urls.py" />
+        <option value="$PROJECT_DIR$/cart/cart/settings.py" />
+        <option value="$PROJECT_DIR$/cart/shop/templates/shop/tracker.html" />
+        <option value="$PROJECT_DIR$/cart/shop/templates/shop/checkout.html" />
         <option value="$PROJECT_DIR$/cart/shop/models.py" />
         <option value="$PROJECT_DIR$/cart/shop/admin.py" />
-        <option value="$PROJECT_DIR$/cart/shop/templates/shop/checkout.html" />
-        <option value="$PROJECT_DIR$/cart/shop/views.py" />
         <option value="$PROJECT_DIR$/cart/shop/urls.py" />
+        <option value="$PROJECT_DIR$/cart/shop/views.py" />
+        <option value="$PROJECT_DIR$/cart/shop/templates/shop/basic.html" />
         <option value="$PROJECT_DIR$/cart/shop/templates/shop/index.html" />
       </list>
     </option>
@@ -168,6 +197,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,21 +227,6 @@
               <item name="Ecomm" type="462c0819:PsiDirectoryNode" />
               <item name="cart" type="462c0819:PsiDirectoryNode" />
               <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ecomm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ecomm" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ecomm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ecomm" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -226,7 +241,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,12 +297,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Repositories" order="0" weight="0.3296131" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.2857143" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2857143" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -435,34 +450,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cart/shop/static/shop/test.jpg" />
-    <entry file="file://$PROJECT_DIR$/cart/cart/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="125" column="21" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cart/blog/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cart/shop/templates/shop/tracker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/db/models/sql/query.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="1048" selection-start-line="1048" selection-end-line="1048" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cart/shop/templates/shop/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -480,49 +474,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cart/shop/templates/shop/checkout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621">
-          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/cart/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cart/shop/templates/shop/basic.html">
+    <entry file="file://$PROJECT_DIR$/cart/cart/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cart/shop/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+        <state relative-caret-position="1269">
+          <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cart/shop/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cart/shop/templates/shop/tracker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="14" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cart/cart/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        <state>
           <folding>
-            <element signature="e#628#660#0" expanded="true" />
+            <element signature="e#629#661#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cart/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/cart/shop/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart/shop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart/shop/templates/shop/checkout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="22" lean-forward="true" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart/shop/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+          <folding>
+            <element signature="e#26#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cart/shop/templates/shop/prodview.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -531,30 +551,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cart/shop/urls.py">
+    <entry file="file://$PROJECT_DIR$/cart/shop/templates/shop/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="901">
+          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cart/shop/views.py">
+    <entry file="file://$PROJECT_DIR$/cart/shop/templates/shop/basic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+        <state relative-caret-position="-998">
+          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
           <folding>
-            <element signature="e#26#62#0" expanded="true" />
+            <element signature="e#2357#2364#1" expanded="true" />
+            <element signature="e#3292#3299#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cart/shop/templates/shop/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+        <state relative-caret-position="294">
+          <caret line="117" column="51" selection-start-line="117" selection-start-column="51" selection-end-line="117" selection-end-column="51" />
           <folding>
             <element signature="e#1507#1528#0" expanded="true" />
           </folding>

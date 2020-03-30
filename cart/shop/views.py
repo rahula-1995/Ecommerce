@@ -1,9 +1,12 @@
 # Create your views here.
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from .models import product,Contact,Orders
 from math import ceil
 import logging
+from django.contrib.auth.models import User
+from django.contrib.auth import authenticate ,login,logout
+
 
 # Get an instance of a logger
 logger = logging.getLogger(__name__)
@@ -33,8 +36,24 @@ def contact(request):
     return render(request, 'shop/contact.html')
 
 def tracker(request):
-    return render(request, 'shop/tracker.html')
+    if request.method=="POST":
+        orderId = request.POST.get('orderId', '')
+        email = request.POST.get('email', '')
+        try:
+            order = Orders.objects.filter(order_id=orderId, email=email)
+            if len(order)>0:
+                update = OrderUpdate.objects.filter(order_id=orderId)
+                updates = []
+                for item in update:
+                    updates.append({'text': item.update_desc, 'time': item.timestamp})
+                    response = json.dumps([updates, order[0].items_json], default=str)
+                return HttpResponse(response)
+            else:
+                return HttpResponse('{}')
+        except Exception as e:
+            return HttpResponse('{}')
 
+    return render(request, 'shop/tracker.html')
 def search(request):
     return render(request, 'shop/search.html')
 
@@ -60,3 +79,25 @@ def checkout(request):
         return render(request, 'shop/checkout.html', {'thank':thank, 'id': id})
     return render(request, 'shop/checkout.html')
 # Create your views here.
+def signup(request):
+    if request.method=="POST":
+        username=request.POST.get('usern1','')
+        email = request.POST.get('usern', '')
+        password=request.POST.get('passw','')
+        user=User.objects.create_user(username,email,password)
+        user.save()
+
+        return redirect('/shop')
+    return redirect('/shop')
+def signin(request):
+    if request.method=="POST":
+        email = request.POST.get('su', '')
+        password=request.POST.get('sv','')
+        user=authenticate(username=email,password=password)
+        if user is not None:
+            login(request,user)
+            return redirect('/shop')
+        else:
+            return redirect('/contact')
+
+
